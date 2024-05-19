@@ -1,1 +1,24 @@
-404: Not Found
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de cadastro</h1>
+    <form>
+        <label for="user" title="Como vou te chamar?">Usuário</label>
+        <input id="user" type="text" placeholder="Digite seu nome" /> <br />
+        <label for="email" title="Como vou te achar?">E-mail</label>
+        <input id="email" type="email" placeholder="Digite seu E-mail" /> <br />
+        <label for="Senha" title="Como estará seguro!">Senha</label>
+        <input id="Senha" type="password" placeholder="Crie uma senha" /> <br />
+        Leia os Termos de Uso <br />
+        <input type="checkbox" id="checkbox-termos"/> <label for="checkbox-termos"> Aceitar os termos</label> <br />
+        <button type="submit">
+            Efetuar cadastro
+        </button>
+    </form>
+</body>
+</html>
